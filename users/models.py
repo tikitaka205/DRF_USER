@@ -67,3 +67,6 @@ class User(AbstractBaseUser):
         "Is the user a member of staff?"
         # Simplest possible answer: All admins are staff
         return self.is_admin
+
+    #유저매니저랑 다른거 다 필요하고 밑에도 꼭 필요한 부분임 하나씩 다 주석해보면 다 에러뜸
+    # ~7강 해싱안된 비밀번호까지 했다
